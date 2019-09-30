@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import TodoList from './components/TodoList.vue'
+import TodoList from './components/TodoList'
 
 export default {
   components: {
@@ -23,7 +23,5 @@ export default {
     color: #2c3e50;
     width: 600px;
   }
-
-  
 </style>
 
