@@ -1,7 +1,7 @@
 <template>
-  <div class="container L3 mt-4">
+  <div class="container mt-5">
     <h1>Todo App</h1>
-    <todo-list></todo-list>
+    <todo-list/>
   </div>
 </template>
 
@@ -15,14 +15,15 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+  .container {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+    width: 600px;
+  }
 
-.container {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-  width: 40%
-}
-
+  
 </style>
+
