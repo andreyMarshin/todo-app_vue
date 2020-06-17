@@ -8,7 +8,7 @@
       <div class="input-group-append">
         <button class="btn btn-dark" @click="addTodo">
           Add
-        </button> 
+        </button>
       </div>
     </div>
 
@@ -33,13 +33,13 @@ export default {
       newTodo: '',
       todos: [
         { 
-          title: 'Read a book',
+          title: 'took',
           completed: false,
           edit: false,
           date: new Date().toLocaleString()
         },
         { 
-          title: 'Walk the dog',
+          title: 'hook',
           completed: false,
           edit: false,
           date: new Date().toLocaleString()
